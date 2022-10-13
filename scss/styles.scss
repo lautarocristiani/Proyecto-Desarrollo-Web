@@ -1,59 +1,81 @@
+@import "./fuentes";
+
 body{
-    background-image: url("../img/fondo.jpg");
-}
-
-
-p a{
-    color: #c1513d;
-    text-decoration:none;
+    background-image: url("../assets/img/fondo.jpg");    
+    background-size: cover;
+    background-position: center;
 }
 
 header{
-    
+    height: 10vh;
+    h3{
+        font-family: SuperMarioBros;
+    }
     a{
         color: #c1513d;
         text-decoration:none;
+        font-family: SuperMarioBros;
         &:hover{
             color: #7a2636;
         }
     }
+    p{
+        a{
+            font-family: none;
+        }
+    }
 }
 
-
 main{
-
     height: 80vh;
+}
 
-    .noticias{
-        height: 20vh;
-        width: 80vw;
-        background-image: url("../img/fondoNoticias.webp");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center top;
-    }
+// MAIN INDEX MAIN INDEX MAIN INDEX MAIN INDEX MAIN INDEX MAIN INDEX
 
-    .videojuegos{
-        background-image: url("../img/fondoVideojuegos.jpg");
-        height: 20vh;
-        width: 80vw;
-        background-attachment: fixed;
-        background-position: 50% 100%;
-    }
+#mainInicio{
 
-    .contacto{
-        background-image: url("../img/fondoContacto.jpg");
+    #noticias{
         height: 20vh;
-        width: 80vw;
-        background-repeat: no-repeat;
+        width: 100%;
+        background-image: url("../assets/img/fondoNoticias.webp");
         background-size: cover;
+        background-position: center;
+    }
+
+    #videojuegos{
+        background-image: url("../assets/img/fondoVideojuegos.jpg");
+        height: 20vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #contacto{
+        background-image: url("../assets/img/fondoContacto.jpg");
+        height: 20vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+// MAIN INGRESO-REGISTRO MAIN INGRESO-REGISTRO MAIN INGRESO-REGISTRO MAIN INGRESO-REGISTRO
+
+#mainIngreso-Registro{
+    
+    #ingresar, #registrar{
+        height: 80vh;
     }
 }
 
 footer{
+
+    height: 10vh;
+
     a{
         color: #c1513d;
         text-decoration:none;
+        font-family: SuperMarioBros;
         &:hover{
             color: #7a2636;
         }

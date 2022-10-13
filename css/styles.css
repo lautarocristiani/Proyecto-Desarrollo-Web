@@ -1,49 +1,68 @@
+@font-face {
+  font-family: "SuperMarioBros";
+  src: url("../assets/fuentes/SuperMarioBros.ttf") format("truetype");
+}
 body {
-  background-image: url("../img/fondo.jpg");
+  background-image: url("../assets/img/fondo.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-p a {
-  color: #c1513d;
-  text-decoration: none;
+header {
+  height: 10vh;
 }
-
+header h3 {
+  font-family: SuperMarioBros;
+}
 header a {
   color: #c1513d;
   text-decoration: none;
+  font-family: SuperMarioBros;
 }
 header a:hover {
   color: #7a2636;
+}
+header p a {
+  font-family: none;
 }
 
 main {
   height: 80vh;
 }
-main .noticias {
+
+#mainInicio #noticias {
   height: 20vh;
-  width: 80vw;
-  background-image: url("../img/fondoNoticias.webp");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center top;
-}
-main .videojuegos {
-  background-image: url("../img/fondoVideojuegos.jpg");
-  height: 20vh;
-  width: 80vw;
-  background-attachment: fixed;
-  background-position: 50% 100%;
-}
-main .contacto {
-  background-image: url("../img/fondoContacto.jpg");
-  height: 20vh;
-  width: 80vw;
-  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url("../assets/img/fondoNoticias.webp");
   background-size: cover;
+  background-position: center;
+}
+#mainInicio #videojuegos {
+  background-image: url("../assets/img/fondoVideojuegos.jpg");
+  height: 20vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+#mainInicio #contacto {
+  background-image: url("../assets/img/fondoContacto.jpg");
+  height: 20vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
+#mainIngreso-Registro #ingresar, #mainIngreso-Registro #registrar {
+  height: 80vh;
+}
+
+footer {
+  height: 10vh;
+}
 footer a {
   color: #c1513d;
   text-decoration: none;
+  font-family: SuperMarioBros;
 }
 footer a:hover {
   color: #7a2636;
