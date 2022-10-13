@@ -1,0 +1,50 @@
+body {
+  background-image: url("../img/fondo.jpg");
+}
+
+p a {
+  color: #c1513d;
+  text-decoration: none;
+}
+
+header a {
+  color: #c1513d;
+  text-decoration: none;
+}
+header a:hover {
+  color: #7a2636;
+}
+
+main {
+  height: 80vh;
+}
+main .noticias {
+  height: 20vh;
+  width: 80vw;
+  background-image: url("../img/fondoNoticias.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+}
+main .videojuegos {
+  background-image: url("../img/fondoVideojuegos.jpg");
+  height: 20vh;
+  width: 80vw;
+  background-attachment: fixed;
+  background-position: 50% 100%;
+}
+main .contacto {
+  background-image: url("../img/fondoContacto.jpg");
+  height: 20vh;
+  width: 80vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer a {
+  color: #c1513d;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #7a2636;
+}/*# sourceMappingURL=styles.css.map */
