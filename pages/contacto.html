@@ -14,46 +14,47 @@
 <body>
     <header class="container-fluid">
         <div class="row align-items-center text-white">
-            <div class="col-xxl-1 col-xl-1 col-2 text-center">
+            <div class="col-xxl-1 col-2 text-center d-flex align-items-center justify-content-center">
                 <img height="100px" class="logo" src="../assets/img/logo.png" alt="Logo de Gaming Kingdom">
             </div>
-            <div class="col-xxl-3 col-xl-3 col-8 text-center ">
-                <h3 class="fs-1">GAMING KINGDOM</h3>
+            <div class="col-xxl-3 col-8 text-center d-flex align-items-center justify-content-center">
+                <h1 class="fs-1">GAMING KINGDOM</h1>
             </div>
-            <div class="d-none d-xl-flex col-xxl-6 col-xl-7 justify-content-between fs-2">
+            <div class="d-none d-xxl-flex col-xxl-6 justify-content-between align-items-center fs-2">
                 <a href="../index.html">INICIO</a>
-                <a href="./noticias.html">NOTICIAS</a>
+                <a href="./noticias/1.html">NOTICIAS</a>
                 <a href="./videojuegos.html">VIDEOJUEGOS</a>
                 <a href="./contacto.html">CONTACTO</a>
             </div>
-            <div class="d-xxl-none d-xl-none col-2 dropdown dropstart d-flex justify-content-center">
+            <div class="d-xxl-none col-2 dropdown dropstart d-flex justify-content-center">
                 <nav class="navbar navbar-dark">
                 <button class="navbar-toggler" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                     <li><a class="dropdown-item" href="../index.html">INICIO</a></li>
-                    <li><a class="dropdown-item" href="./noticias.html">NOTICIAS</a></li>
+                    <li><a class="dropdown-item" href="./noticias/1.html">NOTICIAS</a></li>
                     <li><a class="dropdown-item" href="./videojuegos.html">VIDEOJUEGOS</a></li>
+                    <li><a class="dropdown-item" href="./contacto.html">CONTACTO</a></li>
                     <li><a class="dropdown-item" href="./ingreso-registro.html">INICIAR / REGISTRARSE</a></li>
                 </ul>
                 </nav>
             </div>
-            <div class="d-none d-xxl-flex d-xl-flex col-xxl-2 col-xl-1 col-2 text-center justify-content-center">
-                <p>Para ingresar sesión o registrarse, <br> haz click <a class="" href="./ingreso-registro.html">aquí</a></p>
+            <div class="d-none d-xxl-flex col-xxl-2 col-2 text-center justify-content-center align-items-center">
+                <p>Para ingresar sesión o registrarse, haz click <a class="" href="./ingreso-registro.html">aquí</a></p>
             </div>
         </div>
     </header>
-    <main id="mainContacto" class="container-fluid d-flex flex-column justify-content-center align-items-center fs-1 text-white">
-        <div class="mb-3">
+    <main id="mainContacto" class="container d-flex flex-column justify-content-center fs-1 text-white text-center">
+        <div class="mb-5">
             <label for="mail" class="form-label">Ingrese su mail</label>
             <input type="email" class="form-control" id="mail" placeholder="nombre@ejemplo.com">
         </div>
-        <div class="mb-3">
+        <div class="mb-5">
             <label for="titulo" class="form-label">Ingrese el titulo</label>
             <input type="email" class="form-control" id="titulo" placeholder="Nuevo juego de terror indie">
         </div>
-        <div class="mb-3">
+        <div class="mb-5">
             <label for="texto" class="form-label">Ingrese su consulta</label>
             <textarea class="form-control" id="texto" rows="5"></textarea>
         </div>

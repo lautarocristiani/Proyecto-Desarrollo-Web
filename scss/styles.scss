@@ -7,16 +7,25 @@ body{
 }
 
 header{
+
     height: 10vh;
-    h3{
+
+    div{
+        height: 100%;
+        #logo{
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    h1{
         font-family: SuperMarioBros;
     }
     a{
-        color: #c1513d;
+        color: #ff4cc7;
         text-decoration:none;
         font-family: SuperMarioBros;
         &:hover{
-            color: #7a2636;
+            color: #aa3385;
         }
     }
     p{
@@ -26,8 +35,28 @@ header{
     }
 }
 
+@media (max-width: 700px) {
+    header{
+        div{
+            #logo{
+                max-width: none;
+                max-height: none;
+                height: 85.19px;
+            }
+        }
+    }
+}
+
 main{
     height: 80vh;
+}
+.btn{
+    border-color: #ff4cc7;
+    background-color: #ff4cc7;
+    &:hover{
+        border-color: #aa3385;
+        background-color: #aa3385;
+    }
 }
 
 // MAIN INDEX MAIN INDEX MAIN INDEX MAIN INDEX MAIN INDEX MAIN INDEX
@@ -59,25 +88,107 @@ main{
     }
 }
 
+@media (max-width: 575px) {
+    #mainInicio{
+
+        #noticias{
+            height: auto;
+        }
+
+        #videojuegos{
+            height: auto;
+        }
+
+        #contacto{
+            height: auto;
+        }
+    }
+}
+
 // MAIN INGRESO-REGISTRO MAIN INGRESO-REGISTRO MAIN INGRESO-REGISTRO MAIN INGRESO-REGISTRO
 
 #mainIngreso-Registro{
     
-    #ingresar, #registrar{
+    #iniciar, #registrar{
         height: 80vh;
+        max-width: 400px;
     }
 }
+
+
+// MAIN NOTICIAS MAIN NOTICIAS MAIN NOTICIAS MAIN NOTICIAS MAIN NOTICIAS MAIN NOTICIAS
+
+#mainNoticias{
+
+    .card{
+        width: 40rem;
+        img{
+            height: 10rem;
+        }
+        a{
+            text-decoration: none;
+            color: #6229d0;
+        }
+    }
+
+    .page-item{
+        a{
+            color: #6229d0;
+        }
+    }
+    .active a{
+        border-color: #6229d0;
+        background-color: #6229d0;
+        color: white;
+    }
+}
+
+// MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS 
+
+#mainVideojuegos{
+    .card{
+        width: 40rem;
+        img{
+            height: 10rem;
+        }
+        a{
+            text-decoration: none;
+            color: #6229d0;
+        }
+    }
+
+    .page-item{
+        a{
+            color: #6229d0;
+        }
+    }
+    .active a{
+        border-color: #6229d0;
+        background-color: #6229d0;
+        color: white;
+    }
+}
+
+// MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO 
+
+#mainContacto{
+    max-width: 600px;
+}
+
+// FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER 
 
 footer{
 
     height: 10vh;
-
-    a{
-        color: #c1513d;
-        text-decoration:none;
-        font-family: SuperMarioBros;
-        &:hover{
-            color: #7a2636;
+    .row{
+        height: 100%;
+        a{
+            color: #ff4cc7;
+            text-decoration:none;
+            font-family: SuperMarioBros;
+            &:hover{
+                color: #aa3385;
+            }
         }
     }
 }

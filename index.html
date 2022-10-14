@@ -13,62 +13,63 @@
 </head>
 <body>
     <header class="container-fluid">
-        <div class="row align-items-center text-white">
-            <div class="col-xxl-1 col-xl-1 col-2 text-center">
-                <img height="100px" class="logo" src="./assets/img/logo.png" alt="Logo de Gaming Kingdom">
+        <div class="row text-white">
+            <div class="col-xxl-1 col-2 text-center">
+                <img id="logo" src="./assets/img/logo.png" alt="Logo de Gaming Kingdom">
             </div>
-            <div class="col-xxl-3 col-xl-3 col-8 text-center ">
-                <h3 class="fs-1">GAMING KINGDOM</h3>
+            <div class="col-xxl-3 col-8 text-center d-flex justify-content-center align-items-center">
+                <h1>GAMING KINGDOM</h1>
             </div>
-            <div class="d-none d-xl-flex col-xxl-6 col-xl-7 justify-content-between fs-2">
+            <div class="d-none d-xxl-flex col-xxl-6 justify-content-between align-items-center fs-2">
                 <a href="./index.html">INICIO</a>
-                <a href="./pages/noticias.html">NOTICIAS</a>
-                <a href="./pages/videojuegos.html">VIDEOJUEGOS</a>
+                <a href="./pages/noticias/1.html">NOTICIAS</a>
+                <a href="../pages/videojuegos.html">VIDEOJUEGOS</a>
                 <a href="./pages/contacto.html">CONTACTO</a>
             </div>
-            <div class="d-xxl-none d-xl-none col-2 dropdown dropstart d-flex justify-content-center">
+            <div class="d-xxl-none col-2 dropdown dropstart d-flex justify-content-center">
                 <nav class="navbar navbar-dark">
                 <button class="navbar-toggler" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="./pages/noticias.html">NOTICIAS</a></li>
+                    <li><a class="dropdown-item" href="./index.html">INICIO</a></li>
+                    <li><a class="dropdown-item" href="./pages/noticias/1.html">NOTICIAS</a></li>
                     <li><a class="dropdown-item" href="./pages/videojuegos.html">VIDEOJUEGOS</a></li>
-                    <li><a class="dropdown-item" href="./pages/contacto.html">CONTACTO</a></li>
+                    <li><a class="dropdown-item" href="./contacto.html">CONTACTO</a></li>
                     <li><a class="dropdown-item" href="./pages/ingreso-registro.html">INICIAR / REGISTRARSE</a></li>
                 </ul>
                 </nav>
             </div>
-            <div class="d-none d-xxl-flex d-xl-flex col-xxl-2 col-xl-1 col-2 text-center justify-content-center">
-                <p>Para ingresar sesión o registrarse, <br> haz click <a class="" href="./pages/ingreso-registro.html">aquí</a></p>
+            <div class="d-none d-xxl-flex col-xxl-2 col-2 justify-content-center align-items-center text-center">
+                <p>Para ingresar sesión o registrarse, haz click <a href="../ingreso-registro.html">aquí</a></p>
             </div>
         </div>
     </header>
-    <main id="mainInicio" class="container-xxl align-content-between d-flex flex-column justify-content-evenly align-items-center">
-        <div id="noticias" class="row align-items-center rounded-pill text-white">
-            <div class="col-8 text-center">
+    <main id="mainInicio" class="container-xxl align-content-between d-flex flex-column justify-content-evenly align-items-center overflow-auto">
+        <div id="noticias" class="row align-items-center rounded-pill text-white pb-2">
+            <div class="col-12 col-sm-8 text-center">
                 <h2>NOTICIAS</h2>
                 <p>En está sección encontraras las noticias más interesantes en el mundo del Gaming y e-Sports.</p>
             </div>
-            <div class="col-4">
-                <a class="btn btn-dark" href="./pages/noticias.html">IR A NOTICIAS</a>
+            <div class="col-12 col-sm-4 text-center">
+                <a class="btn btn-dark" href="./pages/noticias/1.html">IR A NOTICIAS</a>
             </div>
         </div>
-        <div id="videojuegos" class="row align-items-center rounded-pill text-white">
-            <div class="col-8 text-center">
+        <div id="videojuegos" class="row align-items-center rounded-pill text-white pb-2">
+            <div class="col-12 col-sm-8 text-center"">
                 <h2>VIDEOJUEGOS</h2>
                 <p>¿No sabes que juegos empezar? En está sección podrás saber que cuales son los mejores juegos según los usuarios y sus respectivos géneros.</p>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4 text-center">
                 <a class="btn btn-dark" href="./pages/videojuegos.html">IR A VIDEOJUEGOS</a>
             </div>
         </div>
-        <div id="contacto" class="row align-items-center rounded-pill text-white">
-            <div class="col-8 text-center">
+        <div id="contacto" class="row align-items-center rounded-pill text-white pb-2">
+            <div class="col-12 col-sm-8 text-center"">
                 <h2>CONTACTO</h2>
                 <p>¿Quieres contactarnos porque tenes una consulta o duda? ¡No dudes en enviarnos un mensaje!</p>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4 text-center">
                 <a class="btn btn-dark" href="./pages/contacto.html">IR A CONTACTO</a>
             </div>
         </div>

@@ -11,23 +11,46 @@ body {
 header {
   height: 10vh;
 }
-header h3 {
+header div {
+  height: 100%;
+}
+header div #logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+header h1 {
   font-family: SuperMarioBros;
 }
 header a {
-  color: #c1513d;
+  color: #ff4cc7;
   text-decoration: none;
   font-family: SuperMarioBros;
 }
 header a:hover {
-  color: #7a2636;
+  color: #aa3385;
 }
 header p a {
   font-family: none;
 }
 
+@media (max-width: 700px) {
+  header div #logo {
+    max-width: none;
+    max-height: none;
+    height: 85.19px;
+  }
+}
 main {
   height: 80vh;
+}
+
+.btn {
+  border-color: #ff4cc7;
+  background-color: #ff4cc7;
+}
+.btn:hover {
+  border-color: #aa3385;
+  background-color: #aa3385;
 }
 
 #mainInicio #noticias {
@@ -52,18 +75,75 @@ main {
   background-position: center;
 }
 
-#mainIngreso-Registro #ingresar, #mainIngreso-Registro #registrar {
+@media (max-width: 575px) {
+  #mainInicio #noticias {
+    height: auto;
+  }
+  #mainInicio #videojuegos {
+    height: auto;
+  }
+  #mainInicio #contacto {
+    height: auto;
+  }
+}
+#mainIngreso-Registro #iniciar, #mainIngreso-Registro #registrar {
   height: 80vh;
+  max-width: 400px;
+}
+
+#mainNoticias .card {
+  width: 40rem;
+}
+#mainNoticias .card img {
+  height: 10rem;
+}
+#mainNoticias .card a {
+  text-decoration: none;
+  color: #6229d0;
+}
+#mainNoticias .page-item a {
+  color: #6229d0;
+}
+#mainNoticias .active a {
+  border-color: #6229d0;
+  background-color: #6229d0;
+  color: white;
+}
+
+#mainVideojuegos .card {
+  width: 40rem;
+}
+#mainVideojuegos .card img {
+  height: 10rem;
+}
+#mainVideojuegos .card a {
+  text-decoration: none;
+  color: #6229d0;
+}
+#mainVideojuegos .page-item a {
+  color: #6229d0;
+}
+#mainVideojuegos .active a {
+  border-color: #6229d0;
+  background-color: #6229d0;
+  color: white;
+}
+
+#mainContacto {
+  max-width: 600px;
 }
 
 footer {
   height: 10vh;
 }
-footer a {
-  color: #c1513d;
+footer .row {
+  height: 100%;
+}
+footer .row a {
+  color: #ff4cc7;
   text-decoration: none;
   font-family: SuperMarioBros;
 }
-footer a:hover {
-  color: #7a2636;
+footer .row a:hover {
+  color: #aa3385;
 }/*# sourceMappingURL=styles.css.map */
