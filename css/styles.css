@@ -20,6 +20,7 @@ header div #logo {
 }
 header h1 {
   font-family: SuperMarioBros;
+  margin-bottom: 0 !important;
 }
 header a {
   color: #ff4cc7;
@@ -28,6 +29,9 @@ header a {
 }
 header a:hover {
   color: #aa3385;
+}
+header p {
+  margin-bottom: 0 !important;
 }
 header p a {
   font-family: none;
@@ -43,12 +47,14 @@ header p a {
 main {
   height: 80vh;
 }
-
-.btn {
+main #noticias, main #videojuegos, main #contacto {
+  border: 2px solid #ff4cc7;
+}
+main div .btn {
   border-color: #ff4cc7;
   background-color: #ff4cc7;
 }
-.btn:hover {
+main div .btn:hover {
   border-color: #aa3385;
   background-color: #aa3385;
 }

@@ -19,6 +19,7 @@ header{
     }
     h1{
         font-family: SuperMarioBros;
+        margin-bottom: 0 !important;
     }
     a{
         color: #ff4cc7;
@@ -29,6 +30,7 @@ header{
         }
     }
     p{
+        margin-bottom: 0 !important;
         a{
             font-family: none;
         }
@@ -49,16 +51,20 @@ header{
 
 main{
     height: 80vh;
-}
-.btn{
-    border-color: #ff4cc7;
-    background-color: #ff4cc7;
-    &:hover{
-        border-color: #aa3385;
-        background-color: #aa3385;
+    #noticias, #videojuegos, #contacto{
+        border: 2px solid #ff4cc7;
+    }
+    div{
+        .btn{
+            border-color: #ff4cc7;
+            background-color: #ff4cc7;
+            &:hover{
+                border-color: #aa3385;
+                background-color: #aa3385;
+            }
+        }
     }
 }
-
 // MAIN INDEX MAIN INDEX MAIN INDEX MAIN INDEX MAIN INDEX MAIN INDEX
 
 #mainInicio{
