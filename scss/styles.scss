@@ -165,6 +165,7 @@ main{
         background-color: #6229d0;
         color: white;
     }
+
 }
 
 // MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS 
@@ -190,6 +191,12 @@ main{
         &:hover{
             border-color: #aa3385;
             background-color: #aa3385;
+        }
+    }
+
+    #overwatch2{
+        p{
+            margin-bottom: 50px;
         }
     }
 }

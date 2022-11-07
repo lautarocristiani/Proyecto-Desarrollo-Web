@@ -143,6 +143,9 @@ main div .btn:hover {
   border-color: #aa3385;
   background-color: #aa3385;
 }
+#mainVideojuegos #overwatch2 p {
+  margin-bottom: 50px;
+}
 
 #mainContacto {
   max-width: 600px;
