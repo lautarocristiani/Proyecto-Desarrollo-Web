@@ -17,9 +17,28 @@ header{
             max-height: 100%;
         }
     }
+    #navegador{
+        div{
+            width: 100%;
+            a{
+                height: 50%;
+                color: #ff4cc7;
+                padding-left: 10px;
+                padding-right: 10px;
+                &:hover{
+                    color: white;
+                }
+            }
+            .activo{
+                background-color: #ff4cc7;
+                color: black !important;
+            }
+        }
+    }
     h1{
         font-family: SuperMarioBros;
         margin-bottom: 0 !important;
+
     }
     a{
         color: #ff4cc7;
@@ -37,27 +56,23 @@ header{
     }
 }
 
-@media (max-width: 700px) {
-    header{
-        div{
-            #logo{
-                max-width: none;
-                max-height: none;
-                height: 85.19px;
-            }
-        }
-    }
-}
 
+// MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN
 main{
+
     height: 80vh;
+
     #noticias, #videojuegos, #contacto{
         border: 2px solid #ff4cc7;
     }
+
     div{
+        
         .btn{
+
             border-color: #ff4cc7;
             background-color: #ff4cc7;
+
             &:hover{
                 border-color: #aa3385;
                 background-color: #aa3385;
@@ -65,6 +80,7 @@ main{
         }
     }
 }
+
 // MAIN INDEX MAIN INDEX MAIN INDEX MAIN INDEX MAIN INDEX MAIN INDEX
 
 #mainInicio{
@@ -128,8 +144,9 @@ main{
 
     .card{
         width: 40rem;
+        height: 35rem;
         img{
-            height: 10rem;
+            height: 25rem;
         }
         a{
             text-decoration: none;
@@ -142,6 +159,7 @@ main{
             color: #6229d0;
         }
     }
+
     .active a{
         border-color: #6229d0;
         background-color: #6229d0;
@@ -152,26 +170,27 @@ main{
 // MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS MAIN VIDEOJUEGOS 
 
 #mainVideojuegos{
-    .card{
-        width: 40rem;
-        img{
-            height: 10rem;
-        }
-        a{
-            text-decoration: none;
-            color: #6229d0;
+    text-align: center;
+    color: white;
+
+    .carousel{
+        .carousel-item{
+            img{
+                max-width: 100%;
+                height: 40rem;
+            }
         }
     }
 
-    .page-item{
-        a{
-            color: #6229d0;
+    .btn{
+        color: black;
+        border-color: #ff4cc7;
+        background-color: #ff4cc7;
+
+        &:hover{
+            border-color: #aa3385;
+            background-color: #aa3385;
         }
-    }
-    .active a{
-        border-color: #6229d0;
-        background-color: #6229d0;
-        color: white;
     }
 }
 
@@ -186,15 +205,35 @@ main{
 footer{
 
     height: 10vh;
+
     .row{
         height: 100%;
-        a{
-            color: #ff4cc7;
-            text-decoration:none;
-            font-family: SuperMarioBros;
-            &:hover{
-                color: #aa3385;
+        .redes{
+            background-color: #ff4cc7;
+            padding: 5px;
+            a{
+                color: black;
+                text-decoration:none;
+                font-family: SuperMarioBros;
+                &:hover{
+                    color: white;
+                }
             }
+        }
+    }
+}
+
+@media (max-width: 1080px) {
+
+    .redes{
+        background-color: transparent !important;
+
+        img{
+            height: 75px;
+        }
+
+        .link{
+            display: none !important;
         }
     }
 }

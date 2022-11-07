@@ -18,6 +18,22 @@ header div #logo {
   max-width: 100%;
   max-height: 100%;
 }
+header #navegador div {
+  width: 100%;
+}
+header #navegador div a {
+  height: 50%;
+  color: #ff4cc7;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header #navegador div a:hover {
+  color: white;
+}
+header #navegador div .activo {
+  background-color: #ff4cc7;
+  color: black !important;
+}
 header h1 {
   font-family: SuperMarioBros;
   margin-bottom: 0 !important;
@@ -37,13 +53,6 @@ header p a {
   font-family: none;
 }
 
-@media (max-width: 700px) {
-  header div #logo {
-    max-width: none;
-    max-height: none;
-    height: 85.19px;
-  }
-}
 main {
   height: 80vh;
 }
@@ -99,9 +108,10 @@ main div .btn:hover {
 
 #mainNoticias .card {
   width: 40rem;
+  height: 35rem;
 }
 #mainNoticias .card img {
-  height: 10rem;
+  height: 25rem;
 }
 #mainNoticias .card a {
   text-decoration: none;
@@ -116,23 +126,22 @@ main div .btn:hover {
   color: white;
 }
 
-#mainVideojuegos .card {
-  width: 40rem;
-}
-#mainVideojuegos .card img {
-  height: 10rem;
-}
-#mainVideojuegos .card a {
-  text-decoration: none;
-  color: #6229d0;
-}
-#mainVideojuegos .page-item a {
-  color: #6229d0;
-}
-#mainVideojuegos .active a {
-  border-color: #6229d0;
-  background-color: #6229d0;
+#mainVideojuegos {
+  text-align: center;
   color: white;
+}
+#mainVideojuegos .carousel .carousel-item img {
+  max-width: 100%;
+  height: 40rem;
+}
+#mainVideojuegos .btn {
+  color: black;
+  border-color: #ff4cc7;
+  background-color: #ff4cc7;
+}
+#mainVideojuegos .btn:hover {
+  border-color: #aa3385;
+  background-color: #aa3385;
 }
 
 #mainContacto {
@@ -145,11 +154,27 @@ footer {
 footer .row {
   height: 100%;
 }
-footer .row a {
-  color: #ff4cc7;
+footer .row .redes {
+  background-color: #ff4cc7;
+  padding: 5px;
+}
+footer .row .redes a {
+  color: black;
   text-decoration: none;
   font-family: SuperMarioBros;
 }
-footer .row a:hover {
-  color: #aa3385;
+footer .row .redes a:hover {
+  color: white;
+}
+
+@media (max-width: 1080px) {
+  .redes {
+    background-color: transparent !important;
+  }
+  .redes img {
+    height: 75px;
+  }
+  .redes .link {
+    display: none !important;
+  }
 }/*# sourceMappingURL=styles.css.map */
