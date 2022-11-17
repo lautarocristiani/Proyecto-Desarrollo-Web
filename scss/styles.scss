@@ -173,6 +173,10 @@ main{
     .carousel-inner{
         height: 60vh;
         width: 80vw;
+        img{
+            height: 60vh;
+            width: 100%;
+        }
     }
 
     .btn{
