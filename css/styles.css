@@ -30,10 +30,6 @@ header #navegador div a {
 header #navegador div a:hover {
   color: white;
 }
-header #navegador div .activo {
-  background-color: #ff4cc7;
-  color: black !important;
-}
 header h1 {
   font-family: SuperMarioBros;
   margin-bottom: 0 !important;
@@ -60,6 +56,7 @@ main #noticias, main #videojuegos, main #contacto {
   border: 2px solid #ff4cc7;
 }
 main div .btn {
+  color: black;
   border-color: #ff4cc7;
   background-color: #ff4cc7;
 }
@@ -130,9 +127,9 @@ main div .btn:hover {
   text-align: center;
   color: white;
 }
-#mainVideojuegos .carousel .carousel-item img {
-  max-width: 100%;
-  height: 40rem;
+#mainVideojuegos .carousel-inner {
+  height: 60vh;
+  width: 80vw;
 }
 #mainVideojuegos .btn {
   color: black;
@@ -148,7 +145,16 @@ main div .btn:hover {
 }
 
 #mainContacto {
-  max-width: 600px;
+  max-width: 700px;
+}
+#mainContacto .btn {
+  color: black;
+  border-color: #ff4cc7;
+  background-color: #ff4cc7;
+}
+#mainContacto .btn:hover {
+  border-color: #aa3385;
+  background-color: #aa3385;
 }
 
 footer {
@@ -173,9 +179,6 @@ footer .row .redes a:hover {
 @media (max-width: 1080px) {
   .redes {
     background-color: transparent !important;
-  }
-  .redes img {
-    height: 75px;
   }
   .redes .link {
     display: none !important;

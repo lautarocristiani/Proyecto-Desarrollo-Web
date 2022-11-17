@@ -29,10 +29,6 @@ header{
                     color: white;
                 }
             }
-            .activo{
-                background-color: #ff4cc7;
-                color: black !important;
-            }
         }
     }
     h1{
@@ -69,7 +65,7 @@ main{
     div{
         
         .btn{
-
+            color: black;
             border-color: #ff4cc7;
             background-color: #ff4cc7;
 
@@ -174,13 +170,9 @@ main{
     text-align: center;
     color: white;
 
-    .carousel{
-        .carousel-item{
-            img{
-                max-width: 100%;
-                height: 40rem;
-            }
-        }
+    .carousel-inner{
+        height: 60vh;
+        width: 80vw;
     }
 
     .btn{
@@ -204,7 +196,18 @@ main{
 // MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO 
 
 #mainContacto{
-    max-width: 600px;
+    max-width: 700px;
+
+    .btn{
+        color: black;
+        border-color: #ff4cc7;
+        background-color: #ff4cc7;
+
+        &:hover{
+            border-color: #aa3385;
+            background-color: #aa3385;
+        }
+    }
 }
 
 // FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER 
@@ -234,10 +237,6 @@ footer{
 
     .redes{
         background-color: transparent !important;
-
-        img{
-            height: 75px;
-        }
 
         .link{
             display: none !important;
