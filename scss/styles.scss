@@ -191,7 +191,6 @@ main{
         }
     }
 }
-
 // MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO MAIN CONTACTO 
 
 #mainContacto{
@@ -239,6 +238,16 @@ footer{
 
         .link{
             display: none !important;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .redes{
+        .link{
+            img{
+                height: 40px !important;
+            }
         }
     }
 }

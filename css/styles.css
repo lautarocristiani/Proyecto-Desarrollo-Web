@@ -183,4 +183,9 @@ footer .row .redes a:hover {
   .redes .link {
     display: none !important;
   }
+}
+@media (max-width: 350px) {
+  .redes .link img {
+    height: 40px !important;
+  }
 }/*# sourceMappingURL=styles.css.map */
