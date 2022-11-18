@@ -30,10 +30,6 @@ header #navegador div a {
 header #navegador div a:hover {
   color: white;
 }
-header h1 {
-  font-family: SuperMarioBros;
-  margin-bottom: 0 !important;
-}
 header a {
   color: #ff4cc7;
   text-decoration: none;
@@ -172,12 +168,12 @@ footer .row .redes {
   padding: 5px;
 }
 footer .row .redes a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-family: SuperMarioBros;
 }
 footer .row .redes a:hover {
-  color: white;
+  color: black;
 }
 
 @media (max-width: 1080px) {
