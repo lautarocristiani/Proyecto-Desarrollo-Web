@@ -217,7 +217,6 @@ footer{
     .row{
         height: 100%;
         .redes{
-            background-color: #ff4cc7;
             padding: 5px;
             a{
                 color: white;
@@ -234,8 +233,6 @@ footer{
 @media (max-width: 1080px) {
 
     .redes{
-        background-color: transparent !important;
-
         .link{
             display: none !important;
         }
