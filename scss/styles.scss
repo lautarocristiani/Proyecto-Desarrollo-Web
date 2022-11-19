@@ -246,3 +246,11 @@ footer{
         }
     }   
 }
+
+@media (max-width: 300px) {
+    .redes{
+        img{
+            height: 25px !important;
+        }
+    }   
+}
