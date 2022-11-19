@@ -119,29 +119,89 @@ main div .btn:hover {
   color: white;
 }
 
-#mainVideojuegos {
+#mainVideojuegosPrincipal {
   text-align: center;
   color: white;
 }
-#mainVideojuegos .carousel-inner {
+#mainVideojuegosPrincipal .carousel-inner {
   height: 60vh;
   width: 80vw;
 }
-#mainVideojuegos .carousel-inner img {
+#mainVideojuegosPrincipal .carousel-inner img {
   height: 60vh;
   width: 100%;
 }
-#mainVideojuegos .btn {
+#mainVideojuegosPrincipal .btn {
   color: black;
   border-color: #ff4cc7;
   background-color: #ff4cc7;
 }
-#mainVideojuegos .btn:hover {
+#mainVideojuegosPrincipal .btn:hover {
   border-color: #aa3385;
   background-color: #aa3385;
 }
-#mainVideojuegos #overwatch2 p {
+#mainVideojuegosPrincipal #overwatch2 p {
   margin-bottom: 50px;
+}
+
+#mainVideojuegosExplorar .row {
+  width: 100%;
+  height: 100%;
+}
+#mainVideojuegosExplorar .row .genero {
+  border: solid 1px white;
+  height: 90%;
+  width: 100%;
+}
+#mainVideojuegosExplorar .row .genero a {
+  border: solid 1px black;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 0.3rem;
+}
+#mainVideojuegosExplorar .row .genero a:hover {
+  background-color: rgb(221, 221, 221);
+}
+#mainVideojuegosExplorar .row #accion {
+  background-image: url("../assets/videojuegosImg/god-of-war.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#mainVideojuegosExplorar .row #derol {
+  background-image: url("../assets/videojuegosImg/clue-cluedo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#mainVideojuegosExplorar .row #estrategia {
+  background-image: url("../assets/videojuegosImg/starcraft2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#mainVideojuegosExplorar .row #deportes {
+  background-image: url("../assets/videojuegosImg/fifa22.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#mainVideojuegosExplorar .row #aventura {
+  background-image: url("../assets/videojuegosImg/minecraft.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#mainVideojuegosExplorar .row #terror {
+  background-image: url("../assets/videojuegosImg/outlast.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#mainVideojuegosExplorar .row #carreras {
+  background-image: url("../assets/videojuegosImg/grid.avif");
+  background-size: cover;
+  background-position: center;
+}
+#mainVideojuegosExplorar .row #simulacion {
+  background-image: url("../assets/videojuegosImg/sims4.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 #mainContacto {
